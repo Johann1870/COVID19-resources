@@ -1,10 +1,69 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
-  font-family: 'Open sans', sans-serif;
+  margin: 5% 20%;
+  font-family: 'Helvetica', sans-serif;
   color: slategrey;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 300;
+}
+h5 {
+  font-weight: 200;
+}
+h6 {
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: midnightblue;
+  border-left: 1px solid lightgray;
+  padding-left: 12px;
+  padding-block: 10px;
+  margin-block: 0;
+}
+
+h2, dd.level1, dt.level1 {
+  margin-left: 1rem;
+}
+
+h3, dd.level2, dt.level2 {
+  margin-left: 2rem;
+}
+h4, dd.level3, dt.level3 {
+  margin-left: 3rem;
+}
+h5, dd.level4, dt.level4 {
+  margin-left: 4rem;
+}
+h6, dd.level5, dt.level5 {
+  margin-left: 5rem;
+}
+dd.level6, dt.level6 {
+  margin-left: 6rem;
+}
+
+dd::before {
+  content: '\2014';
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+}
+
+dt,dd {
+  border-left: 1px solid lightgray;
+  padding-left: 12px;
+  margin-block: 0;
+}
+dt {
+  padding-top: 12px;
+}
+
+dl {
+  margin-block: 0;
+  padding-block: 10px;
 }
