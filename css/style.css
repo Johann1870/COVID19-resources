@@ -1,7 +1,47 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-body {
-  margin: 5% 20%;
+
+
+body.navbar {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  height: auto;
+}
+
+.nav-bar {
+  width: 100%;
+}
+
+.nav-bar-item {
+  display: inline;
+  white-space: nowrap;
+}
+
+.nav-bar-link {
+  display: inline-block;
+  background: white;
+  padding: 2px 5px;
+  margin: 2px;
+}
+
+.nav-bar-item a:hover {
+  display: inline-block;
+  background: slategrey;
+  padding: 2px 5px;
+  margin: 2px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav-bar-item a {
+  color: slategrey;
+  text-decoration: none;
+}
+
+
+main.page {
+  margin: 1% 2%;
   font-family: 'Helvetica', sans-serif;
   color: slategrey;
 }
@@ -20,7 +60,14 @@ h6 {
   font-weight: 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1.page-title {
+  color: #555;
+  margin: 0.25em 0.5em;
+}
+
+
+
+.sources {
   color: midnightblue;
   border-left: 1px solid lightgray;
   padding-left: 12px;
@@ -32,19 +79,19 @@ h2, dd.level1, dt.level1 {
   margin-left: 1rem;
 }
 
-h3, dd.level2, dt.level2 {
+h3, dd.level2, dt.level2, details.level2 {
   margin-left: 2rem;
 }
-h4, dd.level3, dt.level3 {
+h4, dd.level3, dt.level3, details.level3 {
   margin-left: 3rem;
 }
-h5, dd.level4, dt.level4 {
+h5, dd.level4, dt.level4, details.level4 {
   margin-left: 4rem;
 }
-h6, dd.level5, dt.level5 {
+h6, dd.level5, dt.level5, details.level5 {
   margin-left: 5rem;
 }
-dd.level6, dt.level6 {
+dd.level6, dt.level6, details.level6 {
   margin-left: 6rem;
 }
 
